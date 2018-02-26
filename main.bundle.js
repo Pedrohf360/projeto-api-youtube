@@ -148,7 +148,7 @@ module.exports = ".red-color {\r\n    color:red;\r\n}\r\n\r\nmat-card {\r\n    m
 /***/ "./src/app/card/card.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<mat-card *ngFor=\"let spaceScreen of imagesUrls; let i = index\">\n    <h2>{{ spaceScreen.snippet.title }}</h2>\n    <img mat-card-image src=\"{{ spaceScreen.snippet.thumbnails.medium.url }}\">\n  <mat-card-content>\n      <p><strong>Descrição:</strong> {{ spaceScreen.snippet.description }}</p>\n  </mat-card-content>\n  <mat-card-actions>\n      <button mat-button>\n          <i class=\"material-icons mat-18\">favorite</i> LIKE\n      </button>\n      <button mat-button>\n          <i class=\"material-icons mat-18\">delete</i> DELETE \n      </button>\n  </mat-card-actions>\n</mat-card>\n"
+module.exports = "<mat-card *ngFor=\"let spaceScreen of imagesUrls; let i = index\">\n    <h2>{{ spaceScreen.snippet.title }}</h2>\n    <img mat-card-image src=\"{{ spaceScreen.snippet.thumbnails.high.url }}\">\n  <mat-card-content>\n      <p><strong>Descrição:</strong> {{ spaceScreen.snippet.description }}</p>\n  </mat-card-content>\n  <mat-card-actions>\n      <button mat-button>\n          <i class=\"material-icons mat-18\">favorite</i> LIKE\n      </button>\n      <button mat-button>\n          <i class=\"material-icons mat-18\">delete</i> DELETE \n      </button>\n  </mat-card-actions>\n</mat-card>\n"
 
 /***/ }),
 
@@ -353,7 +353,7 @@ var HeaderComponent = /** @class */ (function () {
         alert('Pedro H. Ferreira Fonseca\n(31) 9 9109-9682');
     };
     HeaderComponent.prototype.exibeSobre = function () {
-        alert('Este projeto foi desenvolvido por Pedro H. Ferreira Fonseca, com o intuito de' +
+        alert('Este projeto foi desenvolvido por Pedro H. Ferreira Fonseca, com o intuito de ' +
             'participar do processo seletivo para vaga de Estágio em Desenvolvimento na ' +
             'Startup Group Mart!');
     };
