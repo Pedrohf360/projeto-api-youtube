@@ -114,7 +114,7 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_3__angular_http__["b" /* HttpModule */],
                 __WEBPACK_IMPORTED_MODULE_4_ng2_translate__["b" /* TranslateModule */].forRoot({
                     provide: __WEBPACK_IMPORTED_MODULE_4_ng2_translate__["a" /* TranslateLoader */],
-                    useFactory: function (http) { return new __WEBPACK_IMPORTED_MODULE_4_ng2_translate__["d" /* TranslateStaticLoader */](http, '/assets/i18n', '.json'); },
+                    useFactory: function (http) { return new __WEBPACK_IMPORTED_MODULE_4_ng2_translate__["d" /* TranslateStaticLoader */](http, '/projeto-api-youtube/assets/i18n', '.json'); },
                     deps: [__WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Http */]]
                 })
             ],
@@ -207,7 +207,7 @@ var ContentComponent = /** @class */ (function () {
 /***/ "./src/app/header/header.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<mat-toolbar color=\"primary\">\n  <mat-toolbar-row>\n    <mat-menu #menu=\"matMenu\">\n      <button mat-menu-item (click)=\"switchLanguage('pt')\">\n        <img src=\"../assets/images/brazil.png\" class=\"imgIcon\" alt=\"brazilian flag\">\n      </button>\n      <button mat-menu-item (click)=\"switchLanguage('en')\">\n        <img src=\"../assets/images/eua.png\" class=\"imgIcon\" alt=\"eua flag\">\n      </button>\n    </mat-menu>\n    <mat-icon class=\"iconTitle fab fa-youtube margin10\"></mat-icon>\n\n    <h3 class=\"title col-md-5\">{{ 'literalData.internshipProject' | translate }} - Group Mart</h3>\n    <div class=\"nav right\">\n      <label for=\"toggle\">&#9776;</label>\n      <input type=\"checkbox\" id=\"toggle\" />\n      <div class=\"menu\">\n\n        <button mat-button (click)=\"openSnackBar('literalData.contact', 'close', 3000)\">{{ 'contact' | translate }}</button>\n        <button mat-button (click)=\"openSnackBar('projectDescription', 'close', 6000)\">{{ 'about' | translate }}</button>\n        <button mat-button [matMenuTriggerFor]=\"menu\">Menu</button>\n\n      </div>\n    </div>\n  </mat-toolbar-row>\n</mat-toolbar>"
+module.exports = "<mat-toolbar color=\"primary\">\n  <mat-toolbar-row>\n    <mat-menu #menu=\"matMenu\">\n      <button mat-menu-item (click)=\"switchLanguage('pt')\">\n        <img src=\"../projeto-api-youtube/assets/images/brazil.png\" class=\"imgIcon\" alt=\"brazilian flag\">\n      </button>\n      <button mat-menu-item (click)=\"switchLanguage('en')\">\n        <img src=\"../projeto-api-youtube/assets/images/eua.png\" class=\"imgIcon\" alt=\"eua flag\">\n      </button>\n    </mat-menu>\n    <mat-icon class=\"iconTitle fab fa-youtube margin10\"></mat-icon>\n\n    <h3 class=\"title col-md-5\">{{ 'literalData.internshipProject' | translate }} - Group Mart</h3>\n    <div class=\"nav right\">\n      <label for=\"toggle\">&#9776;</label>\n      <input type=\"checkbox\" id=\"toggle\" />\n      <div class=\"menu\">\n\n        <button mat-button (click)=\"openSnackBar('literalData.contact', 'close', 3000)\">{{ 'contact' | translate }}</button>\n        <button mat-button (click)=\"openSnackBar('projectDescription', 'close', 6000)\">{{ 'about' | translate }}</button>\n        <button mat-button [matMenuTriggerFor]=\"menu\">Menu</button>\n\n      </div>\n    </div>\n  </mat-toolbar-row>\n</mat-toolbar>"
 
 /***/ }),
 
