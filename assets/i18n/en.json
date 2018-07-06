@@ -1,0 +1,15 @@
+{
+    "about": "About",
+    "contact": "Contact",
+    "close": "Close",
+    "channel": "Channel",
+    "developedBy": "Developed by",
+    "description": "Description",
+    "typeHere": "Type here",
+    "search": "Search",
+    "projectDescription": "This project was developed by Pedro H., with the objective of try a vacacy in a select process to get a job of software developer in Group Mart startup.",
+    "literalData": {
+        "contact": "Pedro H. Ferreira Fonseca\n(31) 9 9109-9682.",
+        "internshipProject": "Internship Project"
+    }
+}
